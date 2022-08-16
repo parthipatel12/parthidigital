@@ -1,0 +1,32 @@
+<title>Build apps for all the new Samsung devices
+</title>
+
+Build apps for the new Samsung devices
+11 August 2022
+
+Posted by Diana Wong (Android Product Manager), Kseniia Shumelchyk (Developer Relations Engineer) and Sara Vickerman (Android Developer Marketing)
+
+This week, Samsung launched the latest devices to come to the Android ecosystem at their Galaxy Unpacked event. If you haven’t already, check out their two new foldables, the Galaxy Z Fold4 and Z Flip4, and their new lineup of watches running on Wear OS, the Galaxy Watch5 series. You can learn more about their announcements here.
+
+With the excitement around these new devices, there's never been a better time to invest in making sure your app has an amazing experience for users, on large screens or Wear OS! Here’s what you need to know to get started:
+
+Get your apps ready for foldables, like the Galaxy Z Fold4 and Z Flip4
+With their unique foldable experience, the Galaxy Z Flip4 and Z Fold4 are great examples of how Android devices come in all shapes and sizes. The Z Fold4 is the latest in large screen devices, a category that continues to see impressive growth. Active large screen users are approaching 270 million, making it a great time to optimize your apps for tablets, foldables and Chrome OS.
+Last year, we launched Android 12L, a feature drop designed to make Android 12 even better on tablets and foldable devices, and Samsung’s Galaxy Z Fold4 will be the first device to run 12L out of the box! Android 12L includes UI updates tailor-made for large screens, improvements to the multitasking experience, and enhancements to compatibility mode so your app looks better out of the box. Since 12L, we also launched Android 13, which includes all these large screen updates and more.
+Get started building for foldables by checking out the documentation. The Z Fold4 and Z Flip4 can be used in multiple different folded states, like Samsung’s “flex mode” where you can go hands-free when doing anything from watching a show to taking a photo. To get your app looking great however it’s folded, you can use the Jetpack WindowManager library to make your app fold aware and test your app on foldables. And finally, the large screen app quality guidelines is a comprehensive set of checklists to help make your app the best it can be across an ever expanding ecosystem of large screen devices.
+Developers who put in this work are starting to see results; eBay increased their app rating to 4.7 stars on Google Play after optimizing for large screens. Chrome's multitasking usage increased 18x for large screens with 12L.
+
+Build exceptional Wear OS apps
+The Wear OS platform expanded this week with the new and improved Galaxy Watch5 series. This lineup of devices builds on Samsung’s commitment to the wearable platform, which we saw last year when they launched Wear OS Powered by Samsung on the Galaxy Watch4 series.
+If you’re looking to get started building for the latest Galaxy Watch 5 series, or any other Wear OS device, now is a great time to check out version 1.0 of Compose for Wear OS. This is the first stable release of our modern declarative UI toolkit designed to make building apps for Wear OS easier, faster, and more intuitive. The toolkit brings the best of Jetpack Compose to Wear OS, accelerating the development process so you can create beautiful apps with fewer lines of code.
+The 1.0 release streamlines UI development by following the declarative approach and offering powerful Kotlin syntax. It also provides a rich set of UI components optimized for the watch experience and is accompanied by many powerful tools in Android Studio to streamline UI iteration. That’s why Compose for Wear OS is our recommended approach for building user interfaces for Wear OS apps.
+We’ve built a set of materials to help you get started with Compose for Wear OS! Check out our curated learning pathway for a step-by-step journey, documentation including a quick start guide, the Compose for Wear OS codelab for hands-on experience, and samples available on Github.
+Similarly to Compose for Wear OS, we’re building Wear OS Tile Components to make it faster and easier to build tiles. Tiles provide Wear OS users glanceable access to the information and actions they need in order to get things done quickly and they are one of the most used features on Wear OS. This update brings material components and layouts so you can create Tiles that embrace the latest Material design for Wear OS. Right now this is in beta, but keep a lookout for the launch announcement!
+Another launch announcement to watch out for is Android Studio Dolphin, the latest release from Android Studio. Check out these features designed to make wearable app development easier:
+Updated Wear OS emulator toolbar which now includes buttons and gestures available on Wear OS devices, such as palm and tilting and simulating two physical buttons.
+Emulator pairing assistant to pair multiple Wear OS devices with a single virtual or physical phone. Android Studio remembers pairings after being closed and allows you to see Wear devices in the Device Manager.
+Direct surface launch that allows you to create run/debug configurations for Wear OS tiles, watch faces, and complications, and launch them directly from Android Studio.
+Between Jetpack Compose, Tile Components and Android Studio Dolphin, we are simplifying Wear OS app development. And, with the addition of the Galaxy Watch5 series to the Wear OS ecosystem, there are even more reasons to build an exceptional Wear OS app.
+There’s never been a better time to start optimizing!
+Form factors are having a major moment this year and Google is committed to helping you optimize and build across form factors with new content and tools, including sessions and workshops from this year’s Google I/O and new Android Studio features. Plus, we have Material Design guidance for large screens and Wear OS to help you in your optimization journey.
+From the Watch5 series to the Z Fold4, Samsung’s Galaxy Unpacked brought us innovations across screen sizes and types. Prepare your app so it looks great across the entire Android device ecosystem!
